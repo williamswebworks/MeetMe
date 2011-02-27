@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MeetMe</title>
+<link href="iphone.css" rel="stylesheet" type="text/css"></head>
+<script type="text/javascript" charset="utf-8" src="phonegap.0.9.4.js"></script>
+<script src="json2.js" charset="utf-8" type="text/javascript"></script>
+<script src="EmailComposer.js" charset="utf-8" type="text/javascript"></script>
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAiQNsnQ6ECBIez58bTbctihQ4N6AJalA9tJl_KoR5fCkMYk8bcRTu6nYHh7TSMRppUOI8e6jPfExqVQ" type="text/javascript"></script>
+<script src="jquery-1.3.2.js" type="text/javascript"></script>
+<script src="jquery.reversegeocode.js" type="text/javascript"></script>
+<script type="text/javascript" charset="utf-8">
+	
+	
+	var latitude;
+	var longitude;
+	
+	
+	
+	/////get time//////
+	
+	var a_p = "";
+var d = new Date();
+var curr_hour = d.getHours();
+if (curr_hour < 12)
+   {
+   a_p = "AM";
+   }
+else
+   {
+   a_p = "PM";
+   }
+if (curr_hour == 0)
+   {
+   curr_hour = 12;
+   }
+if (curr_hour > 12)
+   {
+   curr_hour = curr_hour - 12;
+   }
+var curr_min = d.getMinutes();
+
+
+/////end get time//////
+
+
+	
+	var pNumber = 0; //phonenumber input
+	
+    // Wait for PhoneGap to load
+    //
+    function run() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+    // PhoneGap is ready
+    //
+    function onDeviceReady() {
+        navigator.geolocation.getCurrentPosition(onSuccess, onError);
+    }
+    // onSuccess Geolocation
+    //
+    function onSuccess(position) {
+		window.latitude = position.coords.latitude;
+		window.longitude = position.coords.longitude;
+		var loadingElement = document.getElementById('currentlocation');
+		loadingElement.innerHTML = '';
+		var latitudeElement = document.getElementById('currentLatitude');
+		latitudeElement.innerHTML = 'Latitude: ' + latitude;
+		var longitudeElement = document.getElementById('currentLongitude');
+		longitudeElement.innerHTML = 'Longitude: ' + longitude;
+		$().ready(function() {  
+                $('#address_output').reversegeocode({
+                    lat: latitude,
+                    lng: longitude
+                });
+            });  
+		initializeGoogle()
+	}
+	// onError Callback receives a PositionError object
+    //
+    function onError(error) {
+        alert('code: '    + error.code    + '\n' +
+              'message: ' + error.message + '\n');
+    }
+	function initializeGoogle() {
+		var url = "http://maps.google.com/maps/api/staticmap?center=" + latitude + "," + longitude +"&zoom=18&size=275x300&markers=color:red|" + latitude + "," + longitude + "&sensor=false";
+                         document.getElementById('map').setAttribute('src',url);
+	}
+	// alert dialog dismissed
+    function alertDismissed() {
+        // do something
+    }
+    // Show a custom alert
+    //
+    function showAlert() {
+        navigator.notification.alert(
+            'mobileApps is a program managed by two students at Western State College of Colorado. Thanks to HostGator.com for providing server space to the program.',  // message
+            alertDismissed,         // callback
+            'About',            // title
+            'Dismiss'                  // buttonName
+        );
+    }
+	function clickclear(thisfield, defaulttext) {
+		if (thisfield.value == defaulttext) {
+			thisfield.value = "";
+		}
+	}
+	function clickrecall(thisfield, defaulttext) {
+		if (thisfield.value == "") {
+			thisfield.value = defaulttext;
+		}
+	}
+	function getpNumber() {
+		window.pNumber = document.pNumberForm.enteredNumber.value;
+		sendText()
+	}
+	function sendText() {
+		var myStreet = document.getElementById('address_output').innerHTML;
+		var messageBody = "As of "+curr_hour + ":" + curr_min + " " + a_p+", my location was near the address "+myStreet+". Lat/Long: "+latitude+", "+longitude+".";
+		var subject = 'MeetMe'; 
+		var body = messageBody; 
+		var toRecipients = pNumber+"@message.alltel.com, "+pNumber+"@txt.att.net, "+pNumber+"@messaging.sprintpcs.com, "+pNumber+"@tmomail.net, "+pNumber+"@vtext.com"; 
+		var ccRecipients = ''; 
+		var bccRecipients = ''; 
+		var bIsHTML = false;
+		window.plugins.emailComposer.showEmailComposer(subject,body,toRecipients,ccRecipients,bccRecipients,bIsHTML);
+		}
+	</script>
+
+
+
+<body onload="run()">
+<div id="header">
+	<h1>MeetMe</h1>
+	<a href="#" onclick="showAlert(); return false;" class="Action">About</a>
+</div>
+<div id="address_output" name="addressOutput">
+</div>
+<p id="currentlocation">
+	Finding current location...
+	<div id="currentLatitude">
+	</div>
+	<div id="currentLongitude">
+	</div>
+</p>
+<form id="pNumberForm" name="pNumberForm">
+	<p>
+		 Text Message Current Location:
+	</p>
+	<input id="number" type='tel' name="enteredNumber" value="Enter Phone Number" onclick="clickclear(this, 'Enter Phone Number')" onblur="clickrecall(this,'Enter Phone Number')"/>
+</form>
+<!--<button id="submit" onclick="getpNumber();">Send Text Message</button>-->
+<input type="button" name="submit" onclick="getpNumber();" value="Send Text Message" />
+<br>
+<div id="mapCanvas">
+	<img id="map"/>
+</div>
+</body>
+</html>

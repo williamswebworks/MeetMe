@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	110B4BED12F3EC3000E158CA /* json2.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = json2.js;
+		path = /Users/vaughnsimon/Desktop/MobileAp.ps/Apps/MeetMe/iOS/www/json2.js;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1253, 6253}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1641}";
+		};
+	};
+	110B4BF212F3EC3000E158CA /* index.html */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.html;
+		name = index.html;
+		path = /Users/vaughnsimon/Desktop/MobileAp.ps/Apps/MeetMe/iOS/www/index.html;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1314, 2275}}";
+			sepNavSelRange = "{186, 0}";
+			sepNavVisRange = "{0, 1065}";
+		};
+	};
+	114608BA12F113A600C884D5 /* EmailComposer.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = EmailComposer.js;
+		path = /Users/vaughnsimon/Desktop/MobileAp.ps/Apps/MeetMe/iOS/www/EmailComposer.js;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1253, 793}}";
+			sepNavSelRange = "{257, 114}";
+			sepNavVisRange = "{0, 906}";
+		};
+	};
+	11460A4A12F1193000C884D5 /* EmailComposer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1253, 523}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 305}";
+		};
+	};
+	11460A4B12F1193000C884D5 /* EmailComposer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1253, 1352}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1100}";
+		};
+	};
+	11464ED312EE70BA00A35A4A /* MeetMe */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MeetMe;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	11464EF812EE70BC00A35A4A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	11464EF912EE70BC00A35A4A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	114650C812EF75FE00A35A4A /* phonegap.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = phonegap.js;
+		path = /Users/vaughnsimon/Desktop/MobileAp.ps/Apps/MeetMe/iOS/www/phonegap.js;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {155832, 523}}";
+			sepNavSelRange = "{22260, 0}";
+			sepNavVisRange = "{0, 22260}";
+		};
+	};
+	114651FF12EFAB1300A35A4A /* jquery-1.3.2.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = "jquery-1.3.2.js";
+		path = "/Users/vaughnsimon/Desktop/MobileAp.ps/Apps/MeetMe/iOS/www/jquery-1.3.2.js";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1253, 56082}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1180}";
+		};
+	};
+	1146526A12EFC50500A35A4A /* jquery.reversegeocode.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = jquery.reversegeocode.js;
+		path = /Users/vaughnsimon/Desktop/MobileAp.ps/Apps/MeetMe/iOS/www/jquery.reversegeocode.js;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1253, 533}}";
+			sepNavSelRange = "{876, 0}";
+			sepNavVisRange = "{0, 1428}";
+		};
+	};
+	11A54C3A12F9DE1A008D9E24 /* iphone.css */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.css;
+		name = iphone.css;
+		path = /Users/vaughnsimon/Desktop/MobileAp.ps/Apps/MeetMe/iOS/www/iphone.css;
+		sourceTree = "<absolute>";
+	};
+	11F5239D1319E66B00BB1604 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 114608BA12F113A600C884D5 /* EmailComposer.js */;
+		name = "EmailComposer.js: 21";
+		rLen = 114;
+		rLoc = 257;
+		rType = 0;
+		vrLen = 906;
+		vrLoc = 0;
+	};
+	11F5239E1319E66B00BB1604 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 114651FF12EFAB1300A35A4A /* jquery-1.3.2.js */;
+		name = "jquery-1.3.2.js: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1180;
+		vrLoc = 0;
+	};
+	11F5239F1319E66B00BB1604 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1146526A12EFC50500A35A4A /* jquery.reversegeocode.js */;
+		name = "jquery.reversegeocode.js: 22";
+		rLen = 0;
+		rLoc = 876;
+		rType = 0;
+		vrLen = 1428;
+		vrLoc = 0;
+	};
+	11F523A01319E66B00BB1604 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 110B4BED12F3EC3000E158CA /* json2.js */;
+		name = "json2.js: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1641;
+		vrLoc = 0;
+	};
+	11F523A11319E66B00BB1604 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 114650C812EF75FE00A35A4A /* phonegap.js */;
+		name = "phonegap.js: 1";
+		rLen = 0;
+		rLoc = 22260;
+		rType = 0;
+		vrLen = 22260;
+		vrLoc = 0;
+	};
+	11F523AA1319E6E300BB1604 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 110B4BF212F3EC3000E158CA /* index.html */;
+		name = "index.html: 6";
+		rLen = 0;
+		rLoc = 186;
+		rType = 0;
+		vrLen = 1065;
+		vrLoc = 0;
+	};
+	11F523AB1319E6E300BB1604 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MeetMeAppDelegate.h */;
+		name = "MeetMeAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 258;
+		vrLoc = 0;
+	};
+	11F523AC1319E6E300BB1604 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MeetMeAppDelegate.m */;
+		name = "MeetMeAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1008;
+		vrLoc = 0;
+	};
+	11F523AD1319E6E300BB1604 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 11460A4A12F1193000C884D5 /* EmailComposer.h */;
+		name = "EmailComposer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 305;
+		vrLoc = 0;
+	};
+	11F523AE1319E6E300BB1604 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 11460A4B12F1193000C884D5 /* EmailComposer.m */;
+		name = "EmailComposer.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1100;
+		vrLoc = 0;
+	};
+	11F523AF1319E6E300BB1604 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* MeetMe_Prefix.pch */;
+		name = "MeetMe_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 181;
+		vrLoc = 0;
+	};
+	11F523B01319E6E300BB1604 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 378;
+		vrLoc = 0;
+	};
+	11F523B11319E6E300BB1604 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 11F61A3D130B4E6B00FF0219 /* Default-Landscape.png */;
+	};
+	11F523B21319E6E300BB1604 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 11F61A3E130B4E6B00FF0219 /* Default-Portrait.png */;
+	};
+	11F523B31319E6E300BB1604 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 302CC88610CD8CCE00C49659 /* Default.png */;
+	};
+	11F523B41319E6E300BB1604 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 11F61A67130B523000FF0219 /* Icon-72.png */;
+	};
+	11F523B51319E6E300BB1604 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 11F61A68130B523000FF0219 /* Icon-Small-50.png */;
+	};
+	11F523B61319E6E300BB1604 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 11F61A69130B523000FF0219 /* Icon-Small.png */;
+	};
+	11F523B71319E6E300BB1604 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 11F61A6A130B523000FF0219 /* Icon-Small@2x.png */;
+	};
+	11F523B81319E6E300BB1604 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 11F61A6B130B523000FF0219 /* Icon.png */;
+	};
+	11F523B91319E6E300BB1604 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 11F61A6C130B523000FF0219 /* Icon@2x.png */;
+	};
+	11F523BA1319E6E300BB1604 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 30E1352610E2C1420031B30D /* PhoneGap.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			EnableAcceleration,
+		);
+		name = /Users/vaughnsimon/Desktop/MobileAp.ps/Apps/MeetMe/iOS/PhoneGap.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	11F523BB1319E6E300BB1604 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3053AC6E109B7857006FCFE7 /* VERSION */;
+		name = "VERSION: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 5;
+		vrLoc = 0;
+	};
+	11F523BC1319E6E300BB1604 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MeetMe-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/vaughnsimon/Desktop/MobileAp.ps/Apps/MeetMe/iOS/MeetMe-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	11F523C51319E6F200BB1604 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 307D28A1123043350040C0FA /* PhoneGapBuildSettings.xcconfig */;
+		name = "PhoneGapBuildSettings.xcconfig: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 126;
+		vrLoc = 0;
+	};
+	11F61A43130B4E7600FF0219 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 11A54C3A12F9DE1A008D9E24 /* iphone.css */;
+		name = "iphone.css: 836";
+		rLen = 0;
+		rLoc = 16609;
+		rType = 0;
+		vrLen = 1210;
+		vrLoc = 15972;
+	};
+	11F61A9A130B525400FF0219 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 307D28A1123043350040C0FA /* PhoneGapBuildSettings.xcconfig */;
+		name = "PhoneGapBuildSettings.xcconfig: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 126;
+		vrLoc = 0;
+	};
+	1D3623240D0F684500981E51 /* MeetMeAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1253, 523}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 258}";
+		};
+	};
+	1D3623250D0F684500981E51 /* MeetMeAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1253, 1079}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1008}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* MeetMe */ = {
+		activeExec = 0;
+		executables = (
+			11464ED312EE70BA00A35A4A /* MeetMe */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 11464ED312EE70BA00A35A4A /* MeetMe */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MeetMe */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* MeetMe */,
+		);
+		codeSenseManager = 11464EF912EE70BC00A35A4A /* Code sense */;
+		executables = (
+			11464ED312EE70BA00A35A4A /* MeetMe */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1075,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1035,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320464466;
+			PBXWorkspaceStateSaveDate = 320464466;
+		};
+		perUserProjectItems = {
+			11F5239D1319E66B00BB1604 /* PBXTextBookmark */ = 11F5239D1319E66B00BB1604 /* PBXTextBookmark */;
+			11F5239E1319E66B00BB1604 /* PBXTextBookmark */ = 11F5239E1319E66B00BB1604 /* PBXTextBookmark */;
+			11F5239F1319E66B00BB1604 /* PBXTextBookmark */ = 11F5239F1319E66B00BB1604 /* PBXTextBookmark */;
+			11F523A01319E66B00BB1604 /* PBXTextBookmark */ = 11F523A01319E66B00BB1604 /* PBXTextBookmark */;
+			11F523A11319E66B00BB1604 /* PBXTextBookmark */ = 11F523A11319E66B00BB1604 /* PBXTextBookmark */;
+			11F523AA1319E6E300BB1604 /* PBXTextBookmark */ = 11F523AA1319E6E300BB1604 /* PBXTextBookmark */;
+			11F523AB1319E6E300BB1604 /* PBXTextBookmark */ = 11F523AB1319E6E300BB1604 /* PBXTextBookmark */;
+			11F523AC1319E6E300BB1604 /* PBXTextBookmark */ = 11F523AC1319E6E300BB1604 /* PBXTextBookmark */;
+			11F523AD1319E6E300BB1604 /* PBXTextBookmark */ = 11F523AD1319E6E300BB1604 /* PBXTextBookmark */;
+			11F523AE1319E6E300BB1604 /* PBXTextBookmark */ = 11F523AE1319E6E300BB1604 /* PBXTextBookmark */;
+			11F523AF1319E6E300BB1604 /* PBXTextBookmark */ = 11F523AF1319E6E300BB1604 /* PBXTextBookmark */;
+			11F523B01319E6E300BB1604 /* PBXTextBookmark */ = 11F523B01319E6E300BB1604 /* PBXTextBookmark */;
+			11F523B11319E6E300BB1604 /* PBXBookmark */ = 11F523B11319E6E300BB1604 /* PBXBookmark */;
+			11F523B21319E6E300BB1604 /* PBXBookmark */ = 11F523B21319E6E300BB1604 /* PBXBookmark */;
+			11F523B31319E6E300BB1604 /* PBXBookmark */ = 11F523B31319E6E300BB1604 /* PBXBookmark */;
+			11F523B41319E6E300BB1604 /* PBXBookmark */ = 11F523B41319E6E300BB1604 /* PBXBookmark */;
+			11F523B51319E6E300BB1604 /* PBXBookmark */ = 11F523B51319E6E300BB1604 /* PBXBookmark */;
+			11F523B61319E6E300BB1604 /* PBXBookmark */ = 11F523B61319E6E300BB1604 /* PBXBookmark */;
+			11F523B71319E6E300BB1604 /* PBXBookmark */ = 11F523B71319E6E300BB1604 /* PBXBookmark */;
+			11F523B81319E6E300BB1604 /* PBXBookmark */ = 11F523B81319E6E300BB1604 /* PBXBookmark */;
+			11F523B91319E6E300BB1604 /* PBXBookmark */ = 11F523B91319E6E300BB1604 /* PBXBookmark */;
+			11F523BA1319E6E300BB1604 /* PlistBookmark */ = 11F523BA1319E6E300BB1604 /* PlistBookmark */;
+			11F523BB1319E6E300BB1604 /* PBXTextBookmark */ = 11F523BB1319E6E300BB1604 /* PBXTextBookmark */;
+			11F523BC1319E6E300BB1604 /* PlistBookmark */ = 11F523BC1319E6E300BB1604 /* PlistBookmark */;
+			11F523C51319E6F200BB1604 /* PBXTextBookmark */ = 11F523C51319E6F200BB1604 /* PBXTextBookmark */;
+			11F61A43130B4E7600FF0219 /* PBXTextBookmark */ = 11F61A43130B4E7600FF0219 /* PBXTextBookmark */;
+			11F61A9A130B525400FF0219 /* PBXTextBookmark */ = 11F61A9A130B525400FF0219 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 11464EF812EE70BC00A35A4A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1253, 523}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 378}";
+		};
+	};
+	3053AC6E109B7857006FCFE7 /* VERSION */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1253, 523}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 5}";
+		};
+	};
+	307D28A1123043350040C0FA /* PhoneGapBuildSettings.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1253, 523}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 126}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* MeetMe_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1253, 523}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 181}";
+		};
+	};
+}
